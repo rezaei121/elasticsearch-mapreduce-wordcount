@@ -54,9 +54,6 @@ public class Main {
                 job0.setSpeculativeExecution(false);
                 job0.waitForCompletion(true);
             }
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
